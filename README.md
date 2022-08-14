@@ -6,7 +6,7 @@ Create a photo album as a website and deploy files used for an autorun CD-ROM on
 
 This is a Delphi VCL project for Windows.
 
-It was created in 08/1999 to share photo albums on CD-ROM and web sites. This release is from 07/2002.
+It was created in 08/1999 to share photo albums on CD-ROM and web sites. [This release](https://github.com/DeveloppeurPascal/photo-album-generator/releases) is from 07/2002.
 
 ## Folders
 
@@ -72,7 +72,7 @@ They are used in original HTML 3 templates pages. Of course they don't have to b
 
 The project is delivered as it. See it as Delphi / Pascal learning resource.
 
-If you want to share the source files, please share a link to this repository, not the files.
+If you want to share the source files, please share [a link to this repository](https://github.com/DeveloppeurPascal/photo-album-generator), not the files.
 
 ## Copyright
 
