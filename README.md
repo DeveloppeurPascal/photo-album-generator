@@ -8,6 +8,8 @@ This is a Delphi VCL project for Windows.
 
 It was created in 08/1999 to share photo albums on CD-ROM and web sites. [This release](https://github.com/DeveloppeurPascal/photo-album-generator/releases) is from 07/2002.
 
+It was inspired by [Arles Images Web Page Creator](https://www.digitaldutch.com/arles/) from [Digital Dutch](https://www.digitaldutch.com/).
+
 ## Folders
 
 * /src contains a Delphi VCL project (last modified with Delphi 6)
