@@ -4,7 +4,6 @@ uses
   Forms,
   f_main in 'f_main.pas' {frm_main},
   u_param in 'u_param.pas',
-  f_operation_en_cours in '..\..\dev_w32\unites\f_operation_en_cours.pas' {frm},
   f_apropos in 'f_apropos.pas' {frm_APropos},
   f_album_info in 'f_album_info.pas' {frm_album_info},
   f_photo_detail in 'f_photo_detail.pas' {frm_photo_detail},
@@ -13,8 +12,10 @@ uses
   f_photo_supprimer in 'f_photo_supprimer.pas' {frm_photo_Supprimer},
   f_photo_trier in 'f_photo_trier.pas' {frm_photo_trier},
   u_generation in 'u_generation.pas',
-  u_GenerationUtilitaire in '..\unites\u_GenerationUtilitaire.pas',
-  u_chgt_version in 'u_chgt_version.pas';
+  u_chgt_version in 'u_chgt_version.pas',
+  f_operation_en_cours in '..\lib-externes\librairies\f_operation_en_cours.pas' {frm},
+  u_GenerationUtilitaire in '..\lib-externes\librairies\u_GenerationUtilitaire.pas',
+  u_urlOpen in '..\lib-externes\librairies\u_urlOpen.pas';
 
 {$R *.RES}
 
