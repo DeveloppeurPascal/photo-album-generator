@@ -19,15 +19,15 @@
 #
 # Deployment Manager configuration file for your project. Added in Delphi XE2.
 # Uncomment this if it is not mobile development and you do not use remote debug feature.
-#*.deployproj
-#
+*.deployproj
+
 # C++ object files produced when C/C++ Output file generation is configured.
 # Uncomment this if you are not using external objects (zlib library for example).
 #*.obj
 #
 
 # Delphi compiler-generated binaries (safe to delete)
-# *.exe
+*.exe
 *.dll
 *.bpl
 *.bpi
@@ -67,7 +67,27 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
-PhotoAlbumGenerator-20020713-Win32-Portable/
 
+# Mac Finder and Windows Explorer files
 .DS_Store
 Thumbs.db
+
+# Delphi compiler directories
+Win32/
+Win64/
+OSX64/
+OSXARM64/
+Android/
+Android64/
+iOSDevice64/
+Linux64/
+TMSWeb/
+
+# Private directory
+_PRIVATE/
+
+# PhotoAlbumGenerator files and folders
+
+PhotoAlbumGenerator-20020713-Win32-Portable/
+src/mdl
+src/ressources
